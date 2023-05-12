@@ -50,9 +50,32 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  /* additional styles for your component */
+  /* additional styles for landing component */
 }
+.landing-component {
+  background-image: url(bg.jpeg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* additional styles for landing component */
 
+}
+.landing-component {
+  background-image: url(bg.jpeg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* additional styles for landing component */
+
+}
+.contact-component {
+  background-image: url(bg-blue-1.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* additional styles for landing component */
+
+}
 
 @keyframes App-logo-spin {
   from {
