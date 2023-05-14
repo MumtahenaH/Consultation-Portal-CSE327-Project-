@@ -1,3 +1,4 @@
+ /* the code for the 'Make an Appointment Today' component on the landing page */
 function AppointmentLanding()
 {
     return(

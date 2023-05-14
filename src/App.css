@@ -50,14 +50,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  /* additional styles for landing component */
+  /* additional styles for the background image 1 on the landing page component */
 }
 .landing-component {
   background-image: url(bg.jpeg);
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center center;
-  /* additional styles for landing component */
+  /* additional styles for the background image 2 on the landing page component */
 
 }
 .landing-component {
@@ -73,7 +73,7 @@
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center center;
-  /* additional styles for landing component */
+  /* additional styles for the background image on the contact us section of the landing page component */
 
 }
 

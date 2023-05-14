@@ -1,3 +1,4 @@
+ /* the code for the Footer component on every page */
 function Footer()
 {
     return(

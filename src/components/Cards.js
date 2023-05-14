@@ -1,3 +1,4 @@
+ /* the component for the Cards on the Landing page */
 function Cards()
 {
     return(

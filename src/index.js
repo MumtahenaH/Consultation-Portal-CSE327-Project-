@@ -1,15 +1,18 @@
+ /* all the main pages have been imported here */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import AppointApp from './components/AppointApp';
 import reportWebVitals from './reportWebVitals';
+import Cancel from './components/Cancel';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App/>
     <AppointApp />
+    <Cancel />
   </React.StrictMode>
 );
 

@@ -1,4 +1,4 @@
-
+ /* the code for the 'Contact Us' component on the landing page */
 function ContactUs()
 {
     return(

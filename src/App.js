@@ -1,3 +1,6 @@
+ /* the code for the landing page where all the sections of the landing page has been
+  converted to components and IMPORTED serially */
+  
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
@@ -13,6 +16,7 @@ import Footer from './components/Footer';
 function App() {
   return (
   <div className="container mx-auto bg-white rounded-xl">
+     
    <Navbar />  
    <Landing />
    <Cards />

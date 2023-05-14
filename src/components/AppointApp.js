@@ -1,5 +1,5 @@
 
-
+ /* the front-end code for the Appointment Page; each section has been utilised as components which were created seperately and IMPORTED */
 import AppointmentLanding from './AppoinmentLanding';
 import ContactUs from './ContactUs';
 import DentalLanding from './DentalLanding';

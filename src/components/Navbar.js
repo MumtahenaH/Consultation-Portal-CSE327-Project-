@@ -1,3 +1,4 @@
+ /* the code for the Navigation Bar component on every page */
 function Navbar(){
     return(
         <div className="navbar bg-base-100">

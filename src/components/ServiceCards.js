@@ -1,3 +1,4 @@
+ /* the code for the Services Cards component on the landing page */
 function ServiceCards()
 {
     return(

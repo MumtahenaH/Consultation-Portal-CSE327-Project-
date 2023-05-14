@@ -1,3 +1,4 @@
+ /* the code for the Testemonial component on the landing page */
 function Testemonial()
 {
     return(

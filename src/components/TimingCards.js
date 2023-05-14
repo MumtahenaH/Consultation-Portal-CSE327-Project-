@@ -1,3 +1,4 @@
+ /* the code for the Timing Cards component */
 function TimingCards()
 {
     return(
