@@ -1,18 +1,25 @@
- /* all the main pages have been imported here */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import AppointApp from './components/AppointApp';
 import reportWebVitals from './reportWebVitals';
-import Cancel from './components/Cancel';
+import 'react-day-picker/dist/style.css';
+import AuthProvider from './Context/AuthProvider';
+import {
+  QueryClient,
+  QueryClientProvider,
+} from '@tanstack/react-query'
+
+const queryClient = new QueryClient()
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App/>
-    <AppointApp />
-    <Cancel />
+    <QueryClientProvider client={queryClient}>
+      <AuthProvider>
+        <App />
+      </AuthProvider>
+    </QueryClientProvider>
   </React.StrictMode>
 );
 

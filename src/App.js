@@ -1,58 +1,15 @@
- /* the code for the landing page where all the sections of the landing page has been
-  converted to components and IMPORTED serially */
-  
-import logo from './logo.svg';
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
-import Navbar from './components/Navbar';
-import Landing from './components/Landing';
-import Cards from './components/Cards';
-import ServiceCards from './components/ServiceCards';
-import DentalLanding from './components/DentalLanding';
-import AppointmentLanding from './components/AppoinmentLanding';
-import Testemonial from './components/Testemonial';
-import ContactUs from './components/ContactUs';
-import Footer from './components/Footer';
+import router from './Routes/Routes/Routes';
+import { Toaster } from 'react-hot-toast';
 
 function App() {
   return (
-  <div className="container mx-auto bg-white rounded-xl">
-     
-   <Navbar />  
-   <Landing />
-   <Cards />
-   
-   <h1 className='text-center text-2xl my-20'>Services We Provide</h1>
-    <ServiceCards />
-
-    <DentalLanding />
-    <AppointmentLanding />
-    <p className='text-2xl font-bold text-doctor-green py-16'>
-      
-    Testemonial
-    </p>
-    <h1 className='text-4xl text-doctor-black py-10'>What Our Patients Says</h1>
-
-    <Testemonial />
-
-    
-   
-    <ContactUs />
-
-    <Footer />
-
-  
- 
-
-
- 
- 
-
-</div>
- 
-
- 
-
- 
+    <div className='max-w-[1440px] mx-auto'>
+      <RouterProvider router={router}></RouterProvider>
+      <Toaster></Toaster>
+    </div>
   );
 }
+
 export default App;
