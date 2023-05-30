@@ -10,7 +10,7 @@ const Banner = () => {
                 <img src={chair} className="rounded-lg lg:w-1/2 shadow-2xl" alt='' />
                 <div>
                     <h1 className="text-5xl font-bold">Book Your Appointment!</h1>
-                    <p className="py-6">We provide good medical treament from well qualified doctors of Bangladesh. Book your appointment noW!</p>
+                    <p className="py-6">We provide good medical treament from well qualified doctors of Bangladesh. Book your appointment now!</p>
                     <PrimaryButton><Link to='/appointment'>Book appointment</Link></PrimaryButton>
                 </div>
             </div>

@@ -3,6 +3,10 @@ import chair from '../../../assets/images/chair.png';
 import { DayPicker } from 'react-day-picker';
 
 const AppointmentBanner = ({selectedDate, setSelectedDate}) => {
+
+    const disabledDays = [
+        { from: new Date(1970, 0, 1), to: new Date() }
+      ];
     
     return (
         <header className='my-6'>
@@ -14,6 +18,8 @@ const AppointmentBanner = ({selectedDate, setSelectedDate}) => {
                             mode='single'
                             selected={selectedDate}
                             onSelect={setSelectedDate}
+                            disabled = {disabledDays}
+                            
                         />
                     </div>
                 </div>
